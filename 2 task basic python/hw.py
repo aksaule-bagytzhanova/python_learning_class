@@ -135,42 +135,71 @@ Exercise 12: string-slicing
 Declare a string
 Extract the characters from index 2 to 5 (inclusive)
 Print the extracted characters
+'''
+str_slicing = "Sultan"
+ext_str = str_slicing[1:5]
+print(ext_str)
 
-
+'''
 Exercise 13: type-conversion
 Declare a number as a string
 Convert the string to an integer
 Print the integer
+'''
+str_int = '4'
+str_to_int = int(str_int)
+print(str_to_int)
 
-
+'''
 Exercise 14: string-repetition
 Declare a string
 Repeat the string 3 times
 Print the repeated string
+'''
+one_str = "Sultan"
+three_str = one_str * 3
+print(three_str)
 
+'''
 Exercise 15: calculate-quotient-remainder
 Declare 2 numbers
 Calculate the quotient and remainder
 Print the quotient and remainder
+'''
+n1 = 34
+n2 = 3
+print(n1//n2)
+print(n1%n2)
 
-
+'''
 Exercise 16: float-division
 Declare 2 numbers
 Calculate the result of float division
 Print the result
+'''
+n_f_1 = 34
+n_f_2 = 4
+print(n_f_1/n_f_2)
 
-
+'''
 Exercise 17: string-methods
 Declare a string
 Use a string method to count the occurrences of a character
 Print the count
+'''
+str_count = "SultanAksaule"
+char_count = "a"
+count = str_count.count(char_count)
+print(count)
 
-
+'''
 Exercise 18: escape-sequences
 Declare a string with double quotes inside
 Use escape sequences to include the quotes
 Print the string
-
+'''
+esc
+'''
 
 Exercise 19: multi-line-string
 Declare a multi-line string
