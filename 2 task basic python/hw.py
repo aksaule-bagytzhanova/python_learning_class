@@ -198,23 +198,44 @@ Declare a string with double quotes inside
 Use escape sequences to include the quotes
 Print the string
 '''
-esc
+esc_str = '\'Sultan\''
+print(esc_str)
 '''
 
 Exercise 19: multi-line-string
 Declare a multi-line string
 Print the multi-line string
+'''
+multi_str = """Sultan\n
+sultan\n
+sultan\n"""
+print(multi_str)
 
-
+'''
 Exercise 20: exponentiation
 Declare 2 numbers, base and exponent
 Calculate the result of base to the power of exponent
 Print the result
+'''
+number_base = 5
+exponent = 8
+result_exponent = pow(5,8)
+print(result_exponent)
 
+'''
 💎 Exercise 21: exponentiation
 Declare a palindrome string (A palindrome is a word that is spelled the same forward and backward. ex: "racecar")
 Check if it is palindromic without using loops
+'''
+palind_str = "SasaS"
+def if_palindrome(str):
+    if str == str[::-1]:
+        return True
+    return False
 
+print(if_palindrome(palind_str))
+
+'''
 💎 Exercise 22: check-anagrams
 Declare 2 strings
 Check if the strings are anagrams (ignoring case)
@@ -222,3 +243,13 @@ Print the result
 
 *Anagram - a word, phrase, or name formed by rearranging the letters of another, such as spar, formed from rasp.
 '''
+
+anagram_str = "Sultan"
+anagram_str_2 = "Aksaule"
+def if_anagram(str1, str2):
+    if sorted(str1.lower()) == sorted(str2.lower()):
+        return True
+    return False
+
+print(if_anagram(anagram_str, anagram_str_2))
+
